@@ -95,14 +95,26 @@ main {
 
 .container-three {
     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     padding-left: 250px;
     padding-right: 250px;
     padding-top: 50px;
     padding-bottom: 50px;
     background-color: red;
     color: white;
-    align-items: center;
-    justify-content: space-between;
+    align-items: space-between;
+    justify-content: center;
+}
+
+.quote-text {
+    font-size: 36px; 
+    font-style: light italic; 
+    color: #1F2937;
+}
+
+.quote-author {
+    justify-content: flex-end;
 }
 
 .container-four {
